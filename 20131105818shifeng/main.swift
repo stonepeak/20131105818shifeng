@@ -55,6 +55,12 @@ default:
     "2"
 }
 
+for i in 1 ... 10{
+    if i == 2{
+        continue
+    }
+    print("\(i)")
+}
 
 
 
